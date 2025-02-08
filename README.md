@@ -32,7 +32,7 @@ The **College_Data_Management** system is a web-based application developed usin
 ### Steps to Setup:
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repository-url.git
+   https://github.com/tanmay156/College_Data_Management.git
    ```
 2. Import the project into your IDE.
 3. Configure **Apache Tomcat** server.
