@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* Reset some styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.signup-content {
+    display: flex;
+    width: 100%;
+}
+
+.signup-image, .signup-form {
+    width: 50%;
+    padding: 20px;
+}
+
+.signup-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.signup-image-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.signup-image-link:hover {
+    color: #2980b9;
+}
+
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-group label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-size: 18px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 12px 40px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.label-agree-term {
+    color: #333;
+    font-size: 10px;
+}
+
+.form-button input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-button input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+

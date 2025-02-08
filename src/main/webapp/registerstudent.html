@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Student Management System</title>
+
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/registerstudent.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <marquee><h2 class="form-title">Student Registration</h2></marquee>
+        <div class="container">
+            <form action="registerstudent" method="post" id="frm">
+                <h2 class="card-header">Student Registration</h2>
+                <table class="table table-hover">
+                    <tr>
+                        <td>Registration Number</td>
+                        <td><input type="text" name="registrationNumber" required></td>
+                    </tr>
+                    <tr>
+                        <td>Roll Number</td>
+                        <td><input type="text" name="rollNumber" required></td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="studentName" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" name="studentEmail" required></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male &nbsp;
+                            <input type="radio" name="gender" value="female"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>DOB</td>
+                        <td><input type="date" name="dob" required></td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td><input type="text" name="studentPhone" required></td>
+                    </tr>
+                    <tr>
+                        <td>Course</td>
+                        <td><input type="text" name="studentCourse" required></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit" class="btn btn-outline-success">Submit</button></td>
+                        <td><button type="reset" class="btn btn-outline-danger">Cancel</button></td>
+                    </tr>
+                </table>
+                <button class="btn btn-outline-success home-button"><a href="index.jsp" style="color: white; text-decoration: none;">Home</a></button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

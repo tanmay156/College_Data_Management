@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* Header styling */
+.header {
+    text-align: center;
+    margin: 20px;
+    color: #007bff;
+}
+/* Table styling */
+.table-container {
+    margin: auto;
+    width: 90%;
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+thead {
+    background-color: #343a40;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Edit and Delete button links */
+a.edit-link {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+a.delete-link {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+/* Home button styling */
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #28a745;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Management System</title>
+<style>
+  #frm{
+     width:500px;
+     margin:auto;
+     margin-top:100px;
+  }
+  marquee{
+     margin-top:10px;
+  }
+</style>
+</head>
+<body class="container-fluid">
+    <marquee><h2 class="text-primary">Student Registration</h2></marquee>
+	<form action="registerstudent" method="post" class="form card" id="frm">
+		<h2 class="bg-danger text-white card-header">Student Registration</h2>
+		<table class="table table-hover">
+		
+		<tr>
+		 <td>Registration Number</td>
+		 <td><input type="text" name="registrationNumber" required></td>
+		</tr>
+		
+		<tr>
+		 <td>Roll Number</td>
+		 <td><input type="text" name="rollNumber" required></td>
+		</tr>
+		
+		<tr>
+		 <td>Name</td>
+		 <td><input type="text" name="studentName" required></td>
+		</tr>
+		
+		<tr>
+		 <td>Email</td>
+		 <td><input type="email" name="studentEmail" required></td>
+		</tr>
+		
+		<tr>
+		<td>Gender</td>
+		<td>
+			<input type="radio" name="gender" value="male">Male &nbsp;
+		    <input type="radio" name="gender" value="female">Female
+		</td>
+		</tr>
+		
+		<tr>
+		 <td>DOB</td>
+		 <td><input type="date" name="dob" required></td>
+		</tr>
+		
+		<tr>
+		 <td>Phone</td>
+		 <td><input type="text" name="studentPhone" required></td>
+		</tr>
+		
+		<tr>
+		 <td>Course</td>
+		 <td><input type="text" name="studentCourse" required></td>
+		</tr>
+		
+		<tr class="card-footer">
+		<td><button type="submit" class="btn btn-outline-success">Submit</button></td>
+		<td><button type="reset" class="btn btn-outline-danger">cancel</button></td>
+		</tr>
+		
+		</table>
+		<button class="btn btn-outline-success d-block"><a href="index.jsp">Home</a></button>
+	</form>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Management System</title>
+
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/registerstaff.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <marquee><h2 class="form-title">College Staff Registration</h2></marquee>
+        <div class="container">
+            <form action="chandan" method="post" id="frm">
+                <h2 class="card-header">Register New Staff</h2>
+                <table class="table table-hover">
+                    <tr>
+                        <td><label for="id">Staff ID</label></td>
+                        <td><input type="text" id="id" name="id" required placeholder="Enter staff ID"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td><input type="text" id="name" name="name" required placeholder="Enter full name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="department">Department</label></td>
+                        <td><input type="text" id="department" name="department" required placeholder="Enter department"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="salary">Salary</label></td>
+                        <td><input type="number" id="salary" name="salary" required placeholder="Enter salary amount"></td>
+                    </tr>
+                    <tr>
+                    </tr>
+                </table>
+                <td><button type="submit" class="btn btn-outline-success">Submit</button></td>
+                <button class="btn btn-outline-success home-button">
+                    <a href="index.jsp" style="color: white; text-decoration: none;">Home</a>
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Set a readable font */
+    background-color: #f8f9fa; /* Light background color */
+    color: #212529; /* Dark text color */
+}
+
+/* Card styling for success/failure messages */
+.card {
+    margin: auto;
+    width: 400px; /* Adjusted width for better visibility */
+    margin-top: 100px; /* Spacing from the top */
+    padding: 20px; /* Internal padding for the card */
+    background-color: #ffffff; /* White background for the card */
+    border: 1px solid #dee2e6; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Heading styles */
+h2 {
+    text-align: center; /* Centered heading */
+}
+
+/* Button styles */
+.btn {
+    display: inline-block; /* Inline-block for button display */
+    margin: 10px auto; /* Centered with margin */
+    padding: 10px 20px; /* Increased padding for better visibility */
+    text-decoration: none; /* Remove underline from text */
+    color: #fff; /* White text color */
+    background-color: #28a745; /* Green background for buttons */
+    border: 1px solid #28a745; /* Green border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    color: white; /* White text color on hover */
+}
+
+/* Error message styling */
+.bg-danger {
+    background-color: #dc3545; /* Red background for error */
+    color: #fff; /* White text color */
+    padding: 10px; /* Padding for the error message */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center the text */
+}
